@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../style.css">
+    <script src="https://kit.fontawesome.com/92d70a2fd8.js" crossorigin="anonymous"></script>
+    <title>startseite</title>
+</head>
+<body>
+    <header>
+        
+        <div class="header">
+            <h1>My Onlineshop</h1>
+            <ul>
+                <li><a href="index.html">Startseite</a></li>
+                <li><a href="#">Produkt</a></li>
+                <li><a href="#">Über uns</a></li>
+                <li><a href="#">Kontakt</a></li>
+            </ul>
+        
+            <div class="cart">
+                <button><i class="fa-solid fa-cart-shopping"></i><p>0</p></button>
+            </div>
+            <div class="login"><a href="login.html"><button><i class="fa-solid fa-user"></i></a></button></div>
+        </div>
+        <div class="navigator">
+            
+            <div class="dropdown">
+                <select id="dropdown" onchange="window.location.href=this.value;">
+                    <option value="index.html">all</option>
+                    <option value="samsung.html">Samsung</option>
+                    <option value="apple.html">iphone</option>
+                    <option value="google.html">google</option>
+                </select>
+            </div>
+            <div class="search">
+                <input type="text" placeholder="hier Suchen">
+                <i class="fa-solid fa-magnifying-glass"></i>
+            </div>
+        </div>
+    </header>
+    
+</body>
+</html>
